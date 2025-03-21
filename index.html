@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <div id="container" class="h-screen w-screen bg-cover bg-center bg-no-repeat bg-[url('wallpaper.png')]">
+        <video id="video" class="cinema" autoplay controls loop playsinline>
+            <source src="raiva.mp4" type="video/mp4">
+        </video>
+        </video>
+        <div class="absolute bottom-5 left-100">
+            <button id="btnAlegria" class="btn btn-warning">Alegria</button>
+            <button id="btnTristeza" class="btn btn-info">Tristeza</button>
+            <button id="btnMedo" class="btn btn-primary">Medo</button>
+            <button id="btnRaiva" class="btn btn-error">Raiva</button>
+            <button id="btnNojo" class="btn btn-success">Nojo</button>
+            <button id="btnInveja" class="btn btn-accent">Inveja</button>
+            <button id="btnVergonha" class="btn btn-secondary">Vergonha</button>
+            <button id="btnAnsiedade" class="btn botaoAnsiedade">Ansiedade</button>
+            <button id="btnTedio" class="btn botaoTedio">Tédio</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
